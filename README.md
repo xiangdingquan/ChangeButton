@@ -8,7 +8,8 @@
  
  <a href="art/GIF.gif"><img src="art/GIF.gif" width="40%"/></a>
  
-#### 引用
+#### 引入项目
+
 ```groovy
 
     allprojects {
