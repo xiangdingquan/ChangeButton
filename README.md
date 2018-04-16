@@ -4,10 +4,29 @@
 
 #### 功能介绍
 
- 话不多说  看图
- <a href="art/GIF.gif"><img src="art/GIF.gif" width="70%"/></a>
+ 话不多说 看图
  
-#### 截图
+ <a href="art/GIF.gif"><img src="art/GIF.gif" width="40%"/></a>
+ 
+#### 引用
+```groovy
+
+    allprojects {
+    		repositories {
+    			...
+    			maven { url 'https://jitpack.io' }
+    		}
+    	}
+```
+
+```groovy
+    dependencies {
+	        compile 'com.github.xiangdingquan:ChangeButton:1.0.0'
+	}
+```
+
+
+
   
 #### About me
 An android developer in WuHan
