@@ -74,7 +74,6 @@ public class ChanggeButtonLayout extends FrameLayout {
     }
 
     public void startAnimator() {
-        //拍照录制结果后的动画
         mCenter.setVisibility(GONE);
         mCancle.setVisibility(VISIBLE);
         mConfirm.setVisibility(VISIBLE);
