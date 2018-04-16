@@ -26,6 +26,44 @@
 	}
 ```
 
+#### 布局中添加控件
+
+```xml
+    <org.xdq.library.ChanggeButtonLayout
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </org.xdq.library.ChanggeButtonLayout>
+```
+
+#### activity给确认View的监听
+
+```java
+    buttonLayout.setSeparateClickListener(new SeparateClickListener() {
+                @Override
+                public void onCancle() {
+                    Toast.makeText(getApplicationContext(), "取消", Toast.LENGTH_SHORT).show();
+                }
+    
+                @Override
+                public void onConfirm() {
+                    Toast.makeText(getApplicationContext(), "确认", Toast.LENGTH_SHORT).show();
+                }
+            });
+
+```
+
+#### 给中间按钮的监听
+
+```java
+
+     buttonLayout.setCenterClickListener(new CenterClickListener() {
+                @Override
+                public void click() {
+                    Toast.makeText(getApplicationContext(), "执行任务", Toast.LENGTH_SHORT).show();
+                }
+            });
+```
 
 
   
