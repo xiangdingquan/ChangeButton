@@ -5,7 +5,7 @@
 #### 功能介绍
 
  话不多说  看图
- <a href="art/GIF.gif"><img src="art/GIF.gif" width="70%"/></a>
+ <a href="art/GIF.gif"><img src="art/GIF.gif" width="48%"/></a>
  
 #### 截图
   
